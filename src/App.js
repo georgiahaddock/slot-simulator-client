@@ -9,7 +9,7 @@ function App() {
       <header>
       </header>
       <main id="container">
-        <Grid size={5}/>
+        <Grid columns={5} rows={4}/>
       </main>
     </div>
   );

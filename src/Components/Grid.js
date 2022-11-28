@@ -1,11 +1,11 @@
 // function that builds a grid in the "container"
-export default function Grid({size}) {
+export default function Grid({columns, rows}) {
 
     const squares = [];
 
-    for (var rows = 0; rows < size; rows++) {
-        for (var columns = 0; columns < size; columns++) {
-            squares.push(`${rows},${columns}`);
+    for (var r = 0; r < rows; r++) {
+        for (var c = 0; c < columns; c++) {
+            squares.push(`${r},${c}`);
         };
     };
     console.log(squares);
